@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>网页时钟效果</title>
+    <link rel="stylesheet" type="text/css" href="./clock.css"/>
+    <script type="text/javascript" src="clock.js"></script>
+</head>
+<body>
+    <div class="timer">
+        <div id="date">2017-11-11 星期六</div>
+        <div class="clockDial">
+            <div class="pointer">
+                <div id="hour" class="hour"></div>
+                <div id="minute" class="minute"></div>
+                <div id="second" class="second"></div>
+            </div>
+            <div class="scale">
+                <div class="bigScale">
+                    <div class="bigScale-3"></div>
+                    <div class="bigScale-6"></div>
+                    <div class="bigScale-9"></div>
+                    <div class="bigScale-12"></div>
+                </div>
+                <div id="middleScale"></div>
+                <div id="smallScale"></div>
+            </div>
+            <div class="scaleNumber">
+                <div class="scale-3"><span>3</span></div>
+                <div class="scale-6"><span>6</span></div>
+                <div class="scale-9"><span>9</span></div>
+                <div class="scale-12"><span>12</span></div>
+            </div>
+        </div>
+        <div class="curTime">
+            当前时间：<span id="curTime">15:03</span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+@charset "utf8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    margin: 0px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 80%;
+    height: 100%;
+    background-color: #efefef;
+}
+ul, li{
+    list-style: none;
+}
+ul li{
+    float: left;
+    padding-top: 30px;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 20%;
+    height: 300px;
+    background: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.icon-list{
+    box-sizing: border-box;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    border: 5px solid #efefef;
+    border-radius: 4px;
+    padding: 30px 10px 25px 10px;
+    height: 150px;
+    width: 120px;
+}
+.icon-list-style{
+    border-top: 5px solid #efefef;
+    border-bottom: 5px solid #efefef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 5px;
+    background-clip: content-box;
+    background-color: #efefef;
+    cursor: pointer;
+}
+.icon-list:hover{
+    background-color: #efefef;
+}
+.icon-list:hover .icon-list-style{
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.icon-circle{
+    margin: 0px auto;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 150px;
+}
+.icon-circle-style{
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 10px solid #efefef;
+    padding: 20px;
+    height: inherit;
+    width: inherit;
+    background-color: #efefef;
+    background-clip: content-box;
+}

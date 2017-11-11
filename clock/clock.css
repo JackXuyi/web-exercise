@@ -1,0 +1,111 @@
+@charset "utf8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#date{
+    padding: 30px 0px 50px 0px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.clockDial{
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: #292828;
+}
+/* 指针 */
+.hour, .minute, .second{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    background-color: #ffffff;
+    transform-origin: left top;
+}
+.hour{
+    margin-top: -2px;
+    height: 4px;
+    width: 50px;
+}
+.minute{
+    margin-top: -1px;
+    height: 2px;
+    width: 100px;
+    transform: rotate(45deg);
+}
+.second{
+    width: 120px;
+    transform: rotate(90deg);
+}
+/* 刻度 */
+.bigScale-3, .bigScale-6, .bigScale-9, .bigScale-12, .middle-scale, .small-scale{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: left top;
+}
+.bigScale-3, .bigScale-6, .bigScale-9, .bigScale-12{
+    border-right: 30px solid #ffffff;
+    width: 120px;
+    height: 1px;
+}
+.bigScale-6{
+    transform: rotate(90deg);
+}
+.bigScale-9{
+    transform: rotate(180deg);
+}
+.bigScale-12{
+    transform: rotate(270deg);
+}
+.middle-scale{
+    border-right: 15px solid #ffffff;
+    width: 135px;
+    height: 1px;
+}
+.small-scale{
+    border-right: 5px solid #ffffff;
+    width: 145px;
+    height: 1px;
+}
+/* 刻度值 */
+.scale-3, .scale-6, .scale-9, .scale-12{
+    position: absolute;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.scale-3{
+    top: calc(50% - 9px);
+    left: calc(100% - 45px);
+}
+.scale-6{
+    top: calc(100% - 45px);
+    left: calc(50% - 5px);
+}
+.scale-9{
+    top: calc(50% - 9px);
+    left: 30px;
+}
+.scale-12{
+    top: 30px;
+    left: calc(50% - 9px);
+}
+
+.curTime{
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
