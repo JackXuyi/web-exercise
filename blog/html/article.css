@@ -1,0 +1,26 @@
+@charset "utf-8";
+.content{
+    width: 960px;
+    min-height: 200px;
+}
+.content .content-back{
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #ececec;
+    width: 140px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    font-size: 13px;
+}
+.content .content-back:hover{
+    border-color: #2a373d;
+    background-color: #2a373d;
+    color: #fff;
+}
+.content .content-article{
+    margin: 20px 0 30px 0;
+    border-bottom: 1px solid #ececec;
+}
