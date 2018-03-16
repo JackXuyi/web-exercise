@@ -1,0 +1,46 @@
+@charset "utf-8";
+.content .content-left{
+    float: left;
+    width: 300px;
+    height: 100%;
+}
+.content .content-left .content-left-avter{
+    display: block;
+    margin: 10px auto;
+    border-radius: 90px;
+    width: 180px;
+    height: 180px;
+    background: url(./avter.jpg) no-repeat;
+    background-size: 180px 180px;
+    background-clip: content-box;
+}
+.content .content-left .content-left-message{
+    text-align: center;
+    font-size: 12px;
+}
+.content .content-left .content-left-message .message-author{
+    font-size: 14px;
+    line-height: 3em;
+}
+.content .content-left .content-left-message .messag-address{
+    font-style: normal;
+    color: #979797;
+}
+.content .content-left .content-left-message .messag-site{
+    font-size: 12px;
+    color: #979797;
+}
+.content .content-right{
+    margin-left: 300px;
+    height: 100%;
+    min-height: 300px;
+    width: 720px;
+}
+/* .content .content-right .article .article-content{
+    margin: 30px 0;
+    font-size: 16px;
+    line-height: 1.6em;
+} */
+.content .content-right .article .article-more{
+    color: #a2a2a2;
+}

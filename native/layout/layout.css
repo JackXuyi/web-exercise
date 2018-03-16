@@ -1,0 +1,74 @@
+@charset "utf8";
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+/* 左侧固定右侧自适应布局 */
+.leftFixedLayout{
+    width: 100%;
+    height: 200px;
+}
+.leftFixed{
+    float: left;
+    width: 200px;
+    height: 100%;
+    background-color: #c9c9c9;
+}
+.rightAuto{
+    margin-left: 200px;
+    height: 100%;
+    color: #ffffff;
+    background-color: #000000;
+}
+/* 文字环绕效果 */
+.textRoundLayout{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    resize: both;
+    background-color: #999999;
+}
+.img{
+    float: left;
+    width: 100px;
+    height: 50px;
+    background-color: #cceeff;
+}
+.textRound{
+    width: 100%;
+    height: 100px;
+    text-overflow: hidden;
+    font-size: 36px;
+    word-wrap: break-word; 
+}
+/* 流式布局 */
+.streamLayout{
+    display: block;
+}
+.stream{
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background: #cceeff;
+}
+/* 右侧固定菜单 */
+.rightMenuAbsoluteLayout{
+    width: 100%;
+    height: 500px;
+}
+.rightMenuContent{
+    height: 0;
+}
+.rightMenu{
+    position: absolute;
+    overflow: hidden;
+    right: 20px;
+    bottom: 30px;
+    width: 50px;
+    height: 5px;
+    background-color: #cecece;
+}

@@ -1,0 +1,115 @@
+@charset "utf8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    margin: 0px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 80%;
+    height: 100%;
+    background-color: #efefef;
+}
+ul, li{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding-top: 30px;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    background: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon-commen{
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.icon-list{
+    margin: 0px auto;
+    border-top: 5px solid #efefef;
+    border-bottom: 5px solid #efefef;
+    padding: 35px 0px;
+    height: 5px;
+    width: 70px;
+    box-shadow: 0 0 0 20px #fff, 0 0 0 25px #efefef;
+    background-color: #efefef;
+    background-clip: content-box;
+}
+
+.icon-circle{
+    margin: -22px auto;
+    border: 5px solid #efefef;
+    border-radius: 50%;
+    padding-top: 50%;
+    width: 50%;
+}
+
+.icon-ring{
+    margin: 58px auto;
+    border: 5px solid #efefef;
+    border-radius: 50%;
+    padding-top: 25%;
+    width: 25%;
+    box-shadow: 0 0 0 20px #fff, 0 0 0 25px #efefef, 0 0 0 45px #fff, 0 0 0 50px #efefef;
+}
+
+.icon-right{
+    margin: -7px auto;
+    margin-right: 40%;
+    border: 50px solid #fff;
+    border-left: 50px solid #efefef;
+    border-right: none;
+    width: 0;
+    height: 0;
+}
+
+.icon-left{
+    margin: -7px auto;
+    margin-left: 40%;
+    border: 50px solid #fff;
+    border-right: 50px solid #efefef;
+    border-left: none;
+    width: 0;
+    height: 0;
+}
+
+.icon-down{
+    margin: 68px auto;
+    border: 50px solid #fff;
+    border-top: 50px solid #efefef;
+    border-bottom: none;
+    width: 0;
+    height: 0;
+}
+
+.icon-up{
+    margin: 68px auto;
+    border: 50px solid #fff;
+    border-bottom: 50px solid #efefef;
+    border-top: none;
+    width: 0;
+    height: 0;
+}
+
+.icon-down-small{
+    margin: 68px auto;
+    border: 50px solid #fff;
+    border-top: none;
+    width: 0;
+    height: 0;
+    box-shadow: 0 0 0 5px #efefef;
+}
