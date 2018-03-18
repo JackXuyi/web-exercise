@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import ComponentTest from './componentTest';
+import App from './router';
 ReactDOM.render(
-    <ComponentTest />,
+    <App />,
     document.getElementById('root')
 );
