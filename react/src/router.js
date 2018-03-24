@@ -1,5 +1,6 @@
 import React from 'react';
 import { Redirect, Route, Switch, BrowserRouter as Router, withRouter } from 'react-router-dom';
+import home from './page/home';
 
 const routerConfig = [{
   name: '登陆',
@@ -12,7 +13,7 @@ const routerConfig = [{
 }, {
   name: '首页',
   path: '/',
-  component: () => <h1>home</h1>,
+  component: home,
 }];
 
 const routerList = config => {
