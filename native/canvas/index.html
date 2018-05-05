@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>canvas练习</title>
+  <style>
+    html,body,div{
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    }
+    #container{
+      margin: 100px auto 0 auto;
+      width: 900px;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container" >
+    <!-- <canvas id="canvas" >浏览器不支持canvas</canvas>
+    <canvas id="canvas_back" style="display: none" ></canvas> -->
+  </div>
+  <script src="./canvas.js" ></script>
+  <script>
+  const dragzoom = new DragZoom(document.getElementById('container'), './timg.jpg');
+  // dragzoom.init()
+    // // 初始化
+    // const ele = document.getElementById("canvas");
+    // const canvasBack = document.getElementById("canvas_back");
+    // const ctx = ele.getContext("2d");
+    // const image = new Image();
+    // let scale = 1;
+    // const maxScale = 3;
+    // const minScale = 0.5;
+    // let lastCenter = null; // 上次坐标不变的点，Object：{ sx, sy, dx, dy, scale }
+    // let isDrawing = false;
+    // let lastPoint = { clientX: 0, clientY: 0 };
+    // let bbox = null;
+    // let react = []; // [x,y,width,height]
+    // // ele.addEventListener("click", startReactAction);
+    // // window.addEventListener("resize", resize)
+    
+    // resize();
+    // loadImage(ele, './timg.jpg');
+    // // 加载图片
+    // function loadImage(ele, src) {
+    //   image.src = src;
+    //   image.onload = function () {
+    //     const { width: iw, height: ih } = image;
+    //     const { width: ew, height: eh } = ele;
+    //     const ctx = ele.getContext('2d');
+    //     const { width, height, x, y } = calculateDrawSize(image.width, image.height, ele.width, ele.height);
+    //     lastCenter = setImagePoint(image.width / 2, image.height / 2, ele.width / 2, ele.height / 2, scale);
+    //     ctx.drawImage(image, x, y, width, height);
+    //     ele.addEventListener("mouseout", () => {
+    //       removeEventListener(ele);
+    //     });
+    //     ele.addEventListener("mouseover", () => {
+    //       addEventListener(ele);
+    //     });
+    //   }
+    // }
+    // // 加入所有事件
+    // function addEventListener(ele) {
+    //   ele.addEventListener("mousewheel", imageScale);
+    //   ele.addEventListener("mousedown", mousedownHandle);
+    //   ele.addEventListener("mouseup", mouseupHandle);
+      
+    // }
+    // // 清除所有事件
+    // function removeEventListener(ele) {
+    //   ele.removeEventListener("mousewheel", imageScale);
+    //   ele.removeEventListener("mousedown", mousedownHandle);
+    //   ele.removeEventListener("mouseup", mouseupHandle);
+    //   ele.removeEventListener("mousemove", mousemoveHandle);
+    // }
+    // // 鼠标按下的事件
+    // function mousedownHandle(e) {
+    //   const { left, top } = bbox;
+    //   lastPoint = {
+    //     clientX: e.clientX - left,
+    //     clientY: e.clientY - top,
+    //   };
+    //   ele.addEventListener("mousemove", mousemoveHandle);
+    // }
+    // // 鼠标释放的事件
+    // function mouseupHandle(e) {
+    //   ele.removeEventListener("mousemove", mousemoveHandle);
+    // }
+    // // 鼠标移动的事件
+    // function mousemoveHandle(e) {
+    //   e.preventDefault();
+    //   const { left, top } = bbox;
+    //   const { clientX, clientY } = lastPoint;
+    //   const center = {
+    //     x: e.clientX - left,
+    //     y: e.clientY - top,
+    //   };
+    //   const offset = {
+    //     offsetX: center.x - clientX,
+    //     offsetY: center.y - clientY,
+    //   };
+    //   lastPoint = {
+    //     clientX: e.clientX - left,
+    //     clientY: e.clientY - top,
+    //   };
+    //   drawImageHandle(center, offset);
+    // }
+    // // 图片缩放函数
+    // function imageScale(e) {
+    //   e.preventDefault();
+    //   if (e && e.deltaY && e.deltaY > 0 && scale < maxScale) {
+    //     scale += 0.1;
+    //   } else if (e && e.deltaY && e.deltaY < 0 && scale > minScale) {
+    //     scale -= 0.1;
+    //   }
+    //   const { left, top } = bbox;
+    //   const center = {
+    //     x: e.clientX - left,
+    //     y: e.clientY - top
+    //   };
+    //   drawImageHandle(center);
+    // }
+    // // 绘制图片的函数
+    // function drawImageHandle(center, offset = {}) {
+    //   const curCenter = calculateSourcePoint(lastCenter, center, offset);
+    //   // console.log('center', center, curCenter, scale, lastCenter)
+    //   lastCenter = setImagePoint(curCenter.x, curCenter.y, center.x, center.y, scale);
+    //   drawScaleImage(scale, image, ele, curCenter, center);
+    // }
+    // // 计算当前点在原始图片中的位置
+    // function calculateSourcePoint(lastCenter, center, offset) {
+    //   const { sx, sy, dx, dy, lastScale } = lastCenter;
+    //   const { x, y } = center;
+    //   const { offsetX = 0, offsetY = 0 } = offset;
+    //   const imageX = sx - ((dx - x) / lastScale) - offsetX;
+    //   const imageY = sy - ((dy - y) / lastScale) - offsetY;
+    //   return { x: imageX, y: imageY };
+    // }
+    // // 设置上次图片的原始中心位置和对应关系
+    // function setImagePoint(sx, sy, dx, dy, lastScale) {
+    //   return {
+    //     sx, sy, dx, dy, lastScale,
+    //   };
+    // }
+    // // 绘制图片，center即为原始图像上的坐标
+    // function drawScaleImage(scale, image, canvas, sCenter, dCenter) {
+    //   const { width: iw, height: ih } = image;
+    //   const { width: ew, height: eh } = canvas;
+    //   const { x, y } = sCenter;
+    //   const { x: dx, y: dy } = dCenter;
+    //   const sx = dx - x * scale;
+    //   const sy = dy - y * scale;
+    //   const ctx = canvas.getContext('2d');
+    //   // console.log("drawScaleImage", 0, 0, iw, ih, sx, sy, iw * scale, ih * scale)
+    //   ctx.clearRect(0, 0, ew, eh);
+    //   ctx.drawImage(image, 0, 0, iw, ih, sx, sy, iw * scale, ih * scale);
+    // }
+    // // 计算绘制的实际大小
+    // function calculateDrawSize(imageWidth, imageHeight, canvasWidth, canvasHeight) {
+    //   if (canvasHeight >= imageHeight * (canvasWidth / imageWidth)) { //按照宽度放大
+    //     const height = imageHeight * (canvasWidth / imageWidth)
+    //     return { width: canvasWidth, height, x: 0 , y: (canvasHeight - height) / 2 };
+    //   } else {
+    //     const width = imageWidth * (canvasHeight / imageHeight);
+    //     return { width, height: canvasHeight, x: (canvasWidth - width) / 2 , y: 0 };
+    //   }
+    // }
+    // // 绘制数据
+    // function drawImage(ele, ...args) {
+    //   const ctx = ele.getContext('2d');
+    //   ctx.drawImage(image, 0, 0);
+    // }
+    // // 开始绘制图形
+    // function startReactAction(e) {
+    //   const { clientX, clientY } = e;
+    //   if (bbox && !isDrawing && ele) {
+    //     isDrawing = true;
+    //     const { left, top } = bbox;
+    //     // ctx.beginPath();
+    //     react = [clientX - left, clientY - top, 0, 0];
+    //     // ctx.rect(react[0], react[1], react[2], react[3]);
+    //     ctx.clearRect(0, 0, ele.width, ele.height);
+    //     ctx.fillStyle = "rgba(0, 0, 0, 1)";
+    //     ctx.fillRect (react[0], react[1], react[2], react[3]);
+    //     ele.addEventListener("mousemove", moveReactAction);
+    //     ele.addEventListener("dblclick", endReactAction);
+    //     ele.removeEventListener("click", startReactAction);
+    //   }
+    // }
+    // // 移动过程中的事件
+    // function moveReactAction(e) {
+    //   const { clientX, clientY } = e;
+    //   if (bbox) {
+    //     const { left, top } = bbox;
+    //     react[2] = clientX - left - react[0];
+    //     react[3] = clientY - top - react[1];
+    //     // ctx.rect(react[0], react[1], react[2], react[3]);
+    //     ctx.clearRect(0, 0, ele.width, ele.height);
+    //     ctx.fillStyle = "rgba(0, 0, 0, 1)";
+    //     ctx.fillRect (react[0], react[1], react[2], react[3]);
+    //   }
+    // }
+    // // 双击绘制结束的事件
+    // function endReactAction(e) {
+    //   const { clientX, clientY } = e;
+    //   const { left, top } = bbox;
+    //   react[2] = clientX - left - react[0];
+    //   react[3] = clientY - top - react[1];
+    //   // ctx.rect(react[0], react[1], react[2], react[3]);
+    //   ctx.clearRect(0, 0, ele.width, ele.height);
+    //   ctx.fillStyle = "rgba(0, 0, 0, 1)";
+    //   ctx.fillRect (react[0], react[1], react[2], react[3]);
+    //   ele.removeEventListener("mousemove", moveReactAction);
+    //   ele.removeEventListener("dblclick", endReactAction);
+    // }
+
+    // // 容器大小改变的函数
+    // function resize(){
+    //   const container = document.getElementById("container");
+    //   if (isSupport(ele)) {
+    //     ele.width = container.clientWidth;
+    //     ele.height = container.clientHeight;
+    //     canvasBack.width = container.clientWidth;
+    //     canvasBack.height = container.clientHeight;
+    //     // 矩形
+    //     bbox = ele.getBoundingClientRect();
+    //     console.log("resize", container.clientHeight, container.clientWidth);
+    //   }
+    // }
+    // // 检查是否支持canvas
+    // function isSupport(canvas) {
+    //   return !!canvas.getContext;
+    // }
+  </script>
+</body>
+</html>
