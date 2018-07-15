@@ -3,16 +3,8 @@ import { Redirect, Route, Switch, BrowserRouter as Router, withRouter } from 're
 import home from './page/home';
 
 const routerConfig = [{
-  name: '登陆',
-  path: '/login',
-  component: () => <h1>login</h1>,
-}, {
-  name: '登陆',
-  path: '/logout',
-  component: () => <h1>logout</h1>,
-}, {
   name: '首页',
-  path: '/',
+  path: '/home',
   component: home,
 }];
 
@@ -37,7 +29,7 @@ const renderRoute = () => (
   <Router>
     <Switch>
       {routerList(routerConfig)}
-      <Redirect to="/" />
+      <Redirect to="/home" />
     </Switch>
   </Router>
 );

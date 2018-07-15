@@ -14,7 +14,7 @@ module.exports = merge(config, {
     contentBase: './dist', //设定webpack-dev-server的director根目录。如果不进行设定的话，默认是在当前目录下。
     hot: true, // 是否开启热替换
     host: 'localhost', // 主机
-    quiet: false, //控制台中不输出打包的信息，开发中一般设置为false，进行 打印，这样查看错误比较方面
+    quiet: true, //控制台中不输出打包的信息，开发中一般设置为false，进行 打印，这样查看错误比较方面
     // no-info: // 不显示任何信息
     // compress:  //开启gzip压缩
     // host <hostname/ip>: //设置ip

@@ -9,7 +9,9 @@ module.exports = {
     new CleanWebpackPlugin(['dist']), // 清理数据
     new HtmlWebpackPlugin({ // 自动打包数据
       title: '测试',
-      template: './src/index.html', // html文件模板
+      filename: 'index.html',
+      template: 'src/index.html', // html文件模板
+      favicon: 'src/assets/images/favicon.jpg',
     }),
   ],
   output: {
@@ -20,7 +22,7 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx)$/, //配置要处理的文件格式，一般使用正则表达式匹配
-        use: ['babel-loader'], //使用的加载器名称
+        use: 'babel-loader', //使用的加载器名称
         exclude: /node_modules/
       }
     ],

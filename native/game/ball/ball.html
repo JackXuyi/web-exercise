@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>球</title>
+  <link rel="stylesheet" type="text/css" href="./ball.css" />
+</head>
+<body>
+  <canvas width="900" height="600" id="canvas" class="canvas" >
+    浏览器暂时不支持canvas
+  </canvas>
+  <script type="text/javascript" >
+    const can = document.getElementById('canvas');
+    const ctx = can.getContext('2d');
+    let now = Date.now();
+    let lastTime = now;
+    let lastUpdateTime = Date.now();
+    let updateTimes = 0;
+    const center = {
+      x: 100,
+      y: 100,
+    }
+    const radius = 20;
+    const speed = {
+      vx: 0.02,
+      vy: 0.02,
+      ax: -0.000001,
+      ay: 0.000001,
+    };
+
+    // 计算更新帧数
+    function caculateFPS(ctx) {
+      updateTimes += 1;
+      const interval = now - lastTime;
+      if (updateTimes >= 60) {
+        lastTime = now;       
+        now = Date.now();
+        updateTimes = 0;
+      }
+      const fps = 1000 / (interval / 60);
+      if (interval) {
+        ctx.save();
+        // ctx.font = "48px serif";
+        ctx.fillText(`${parseInt(fps) || 0}FPS`, 860, 20);
+        ctx.restore();
+      }
+    }
+
+    // 绘制图案
+    function drawGraph(ctx) {
+      ctx.save();
+      const { x, y } = center;
+      var radgrad = ctx.createRadialGradient(x, y, 0, x, y, radius);
+      radgrad.addColorStop(0, 'rgba(1,159,98, 1)');
+      radgrad.addColorStop(0.7, 'rgba(1,159,98, 0.75)');
+      radgrad.addColorStop(1, 'rgba(1,159,98, 0.3)');
+      
+      // 画图形
+      ctx.fillStyle = radgrad;
+      ctx.beginPath();
+      ctx.arc(x, y, radius, 0, Math.PI*2, true);
+      ctx.fill("evenodd");
+      ctx.restore();
+    }
+
+    function updateLocation() {
+      const { width, height } = can;
+      const now = Date.now();
+      const t = now - lastUpdateTime;
+      const { vx, vy, ax, ay } = speed;
+      const { x, y } = center;
+      center.x = x + vx * t + ax * t * t * 0.5;
+      center.y = y + vy * t + ay * t * t * 0.5;
+      speed.vy = vy + ay * t;
+      speed.vx = vx + ax * t;
+      if (center.x >= width - radius || center.x <= radius) {
+        speed.vx = -vx;
+        speed.ax = -ax;
+        if (center.x >= width - radius) {
+          center.x = width - radius;
+        }else {
+          center.x = radius;
+        }
+      }
+      if (center.y >= height - radius || center.y <= radius) {
+        speed.vy = -vy * 0.8;
+        if (center.y >= height - radius) {
+          center.y = height - radius;
+        } else if (center.y <= radius) {
+          center.y = radius;
+        }
+      }
+      if (center.y >= height - radius && y >= height - radius) {
+        // speed.vy = 0;
+        // speed.vx = 0;
+      }
+      if (center.x >= width - radius && x >= width - radius || Math.abs(vx) <= Math.abs(ax * t)) {
+        speed.vx = 0;
+        speed.ax = 0;
+      }
+    }
+
+    function update() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      updateLocation();
+      caculateFPS(ctx);
+      drawGraph(ctx);
+
+      window.requestAnimationFrame(update);
+    }
+    window.requestAnimationFrame(update);
+  </script>
+</body>
+</html>
