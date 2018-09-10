@@ -1,16 +1,7 @@
 /**
  * @author xuyi 2018-09-05
- * @flow
  */
 import cFetch from "./cFetch";
-
-type AsyncActionType = {
-  type: string,
-  pending: string,
-  accept: string,
-  reject: string
-};
-type Method = "GET" | "POST" | "PUT" | "DELETE" | "HEADER" | "OPTION";
 
 // 正在做异步请求还未响应的action
 const isRequestAction = {};
@@ -20,7 +11,7 @@ const isRequestAction = {};
  * @param {*} method 请求的方法，分别为"GET","POST","PUT","DELETE","HEADER","OPTION"
  * @param {*} param 请求的参数为Object
  */
-const getRequestParams = (method: Method, param: Object) => {
+const getRequestParams = (method, param) => {
   switch (method) {
     case "POST":
     case "DELETE":
@@ -44,12 +35,12 @@ const getRequestParams = (method: Method, param: Object) => {
  * @param {*} rj 请求异常的回调
  */
 const createAsyncRequest = (
-  url: string,
-  dispatch: Function,
-  actionType: AsyncActionType,
-  params: { method: Method, headers: Object, params?: Object, body?: Object },
-  repeat?: boolean = true,
-  rj?: Function = err => null
+  url,
+  dispatch,
+  actionType,
+  params = null,
+  repeat = true,
+  rj = err => null
 ) => {
   const { type, pending, accept, reject } = actionType;
   const flag = repeat || (!repeat && !isRequestAction[type]);
@@ -57,7 +48,7 @@ const createAsyncRequest = (
   !repeat ? (isRequestAction[type] = true) : null;
   if (flag) {
     return cFetch(url, params)
-      .then((result: any) => {
+      .then(result => {
         dispatch({ type: accept, payload: result });
         !repeat ? (isRequestAction[type] = false) : null;
         return Promise.resolve(result);
@@ -75,7 +66,7 @@ const createAsyncRequest = (
  * 创建异步请求的action type
  * @param {*} actionType 异步请求的action type
  */
-const createAsyncActionType = (actionType: string) => {
+const createAsyncActionType = actionType => {
   return {
     type: actionType,
     pending: `${actionType}_pending`,
@@ -93,14 +84,12 @@ const createAsyncActionType = (actionType: string) => {
  * @param {*} headers 请求时发送的头部信息，默认值为{}
  */
 const createAsyncAction = (
-  url: string,
-  actionType: AsyncActionType,
-  method: Method = "GET",
-  repeat: boolean = true,
-  headers: Object = {}
-) => (params: Object | null = null, rj: Function = err => null) => (
-  dispatch: (obj: any) => void
-) => {
+  url,
+  actionType,
+  method = "GET",
+  repeat = true,
+  headers = {}
+) => (params = null, rj = err => null) => dispatch => {
   const { type, pending, accept, reject } = actionType;
   const param = params ? getRequestParams(method, params) : null;
   return createAsyncRequest(
@@ -113,24 +102,15 @@ const createAsyncAction = (
   );
 };
 
-type RelatedAsyncAction = {
-  url: string,
-  actionType: AsyncActionType,
-  method: Method,
-  headers?: Object
-};
-
 /**
  * 创建相关异步action的方法
  * @param {*} actions 异步action数组
  * @param {*} relatedActionType 异步action开始请求、全部成功或者某个请求失败dispatch的action type
  */
-const createRelatedAsyncAction = (
-  actions: RelatedAsyncAction[],
-  relatedActionType: AsyncActionType
-) => (params: Array<Object> = [], rjs: Array<(erros: string) => void> = []) => (
-  dispatch: (obj: any) => void
-) => {
+const createRelatedAsyncAction = (actions, relatedActionType) => (
+  params = [],
+  rjs = []
+) => dispatch => {
   let actionList = [];
   const promiseList = [];
   if (actions && Array.isArray(actions)) {

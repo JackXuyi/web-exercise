@@ -1,4 +1,13 @@
 [ignore]
+*/modules/*
+*/utils/*
+*/redux/middleware/*
+*/redux/store/*
+*/config/*
+*/build/*
+*/mock/*
+*/public/*
+*/scripts/*
 
 [include]
 
