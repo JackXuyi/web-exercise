@@ -1,9 +1,8 @@
 {
   "presets": ["env", "react", "stage-0", "flow"],
   "plugins": [
-    [
-      "import",
-      { "libraryName": "antd", "libraryDirectory": "es", "style": true }
-    ]
+    "transform-runtime",
+    "transform-es2015-modules-commonjs",
+    ["import", { "libraryName": "antd", "style": true }]
   ]
 }

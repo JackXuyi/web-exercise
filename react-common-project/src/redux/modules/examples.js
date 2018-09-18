@@ -4,8 +4,14 @@
 import { handleActions, createAction } from "redux-actions";
 import { createAsyncActionType, createAsyncAction } from "utils/request";
 
-const action = "exampleAction";
-const asyncAction = createAsyncActionType("asyncAction");
+export const action = "exampleAction";
+export const asyncAction = createAsyncActionType("asyncAction");
+
+export const initState = {
+  counter: 0,
+  loading: false,
+  data: {}
+};
 
 const exampleRedux = handleActions(
   {
@@ -18,11 +24,7 @@ const exampleRedux = handleActions(
     }),
     [asyncAction.reject]: state => ({ ...state, loading: false })
   },
-  {
-    counter: 0,
-    loading: false,
-    data: {}
-  }
+  initState
 );
 
 export default exampleRedux;

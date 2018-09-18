@@ -17,7 +17,7 @@ type Props = {
 type State = {
   counter: number
 };
-class home extends Component<Props, State> {
+export class home extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
     this.state = {
