@@ -17,6 +17,7 @@ module.exports = merge(config, {
     contentBase: "./dist", // 编译后文件路径
     hot: true, // 是否开启热替换
     host: "localhost", // 主机
+    historyApiFallback: true,
     stats: {
       colors: true,
       modules: false,

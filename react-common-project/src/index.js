@@ -4,6 +4,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
+import { BrowserRouter as Routerk } from "react-router-dom";
 import App from "./container";
 import Route from "./router";
 import store from "./redux/store";
@@ -15,10 +16,7 @@ if (process.env.NODE_ENV !== "production") {
 
 ReactDOM.render(
   <Provider store={store}>
-    <App>
-      <Route />
-      {process.env.NODE_ENV !== "production" ? <DevTools /> : null}
-    </App>
+    <Route>{process.env.NODE_ENV !== "production" ? <DevTools /> : null}</Route>
   </Provider>,
   document.getElementById("root")
 );
