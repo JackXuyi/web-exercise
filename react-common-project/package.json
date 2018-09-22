@@ -27,7 +27,7 @@
     "redux-thunk": "^2.3.0"
   },
   "theme": {
-    "primary-color": "#efefef"
+    "primary-color": "#1890ff"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

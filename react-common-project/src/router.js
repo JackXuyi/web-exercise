@@ -9,7 +9,7 @@ import {
   Redirect
 } from "react-router-dom";
 import App from "./container";
-import home from "pages/home";
+import home from "./pages/home";
 
 export const routerConfig = [
   {
@@ -19,8 +19,18 @@ export const routerConfig = [
   },
   {
     name: "测试",
-    path: "/test",
-    component: () => <h2>测试</h2>
+    children: [
+      {
+        name: "测试111",
+        path: "/test111",
+        component: () => <h2>测试111</h2>
+      },
+      {
+        name: "测试222",
+        path: "/test222",
+        component: () => <h2>测试222</h2>
+      }
+    ]
   }
 ];
 
@@ -32,12 +42,16 @@ const renderRouters = config => {
     const { path, component, children } = config[i];
     if (children) {
       const cLen = children.length;
-      const { path: cPath, component: cComponent } = config[i];
       for (let j = 0; j < cLen; j++) {
-        routers.push(<Route key={cPath} path={cPath} component={cComponent} />);
+        const { path: cPath, component: cComponent } = children[j];
+        routers.push(
+          <Route exact key={cPath} path={cPath} component={cComponent} />
+        );
       }
     } else {
-      routers.push(<Route key={path} path={path} component={component} />);
+      routers.push(
+        <Route exact key={path} path={path} component={component} />
+      );
     }
   }
   return routers;
@@ -46,14 +60,12 @@ const renderRouters = config => {
 export default props => {
   const { children } = props;
   return (
-    <Router>
-      <App>
-        <Switch>
-          {renderRouters(routerConfig)}
-          <Redirect to="/home" />
-        </Switch>
-        {children}
-      </App>
-    </Router>
+    <App>
+      <Switch>
+        {renderRouters(routerConfig)}
+        <Redirect to="/home" />
+      </Switch>
+      {children}
+    </App>
   );
 };

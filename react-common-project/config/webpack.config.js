@@ -10,8 +10,7 @@ const devMode = process.env.NODE_ENV !== "production";
 
 module.exports = {
   entry: {
-    app: path.join(rootPath, "./src/index.js"),
-    home: path.join(rootPath, "./src/pages/home/index.js")
+    app: path.join(rootPath, "./src/index.js")
   },
   output: {
     filename: "[name].bundle.js", // 输出文件名称
