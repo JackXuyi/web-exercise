@@ -1,0 +1,56 @@
+.component-slide-check {
+  display: inline-block;
+  position: relative;
+  width: 500px;
+  height: 40px;
+  border: 1px solid #efefef;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 4px;
+  -moz-user-select: none; /*火狐*/
+  -webkit-user-select: none; /*webkit浏览器*/
+  -ms-user-select: none; /*IE10*/
+  -khtml-user-select: none; /*早期浏览器*/
+  user-select: none;
+  .component-slide-mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5);
+    // background-color: #69c0ff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-left: 1px solid #69c0ff;
+    border-top: 1px solid #69c0ff;
+    border-bottom: 1px solid #69c0ff;
+  }
+  .component-slide-slider {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fff;
+    &:hover {
+      background-color: #1890ff;
+      color: #fff;
+    }
+    &.component-slide-slider-success {
+      background-color: #52c41a;
+      color: #fff;
+    }
+    &.component-slide-slider-failed {
+      background-color: #f5222d;
+      color: #fff;
+    }
+  }
+}

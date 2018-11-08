@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import App from "./container";
 import home from "./pages/home";
+import slideCheck from "./pages/slideCheck";
 
 export const routerConfig = [
   {
@@ -18,12 +19,12 @@ export const routerConfig = [
     component: home
   },
   {
-    name: "测试",
+    name: "工具",
     children: [
       {
-        name: "测试111",
-        path: "/test111",
-        component: () => <h2>测试111</h2>
+        name: "滑块验证",
+        path: "/slideCheck",
+        component: slideCheck
       },
       {
         name: "测试222",
