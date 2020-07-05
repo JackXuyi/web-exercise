@@ -1,0 +1,13 @@
+{
+  "restartable": "rs",
+  "ignore": ["node_modules/**/node_modules"],
+  "verbose": true,
+  "execMap": {
+    "ts": "ts-node -r  tsconfig-paths/register src/index.ts --files"
+  },
+  "watch": ["./src"],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "ts"
+}
