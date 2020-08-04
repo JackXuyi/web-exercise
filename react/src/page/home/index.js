@@ -1,48 +1,49 @@
 /**
  * @author xuyi
  */
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class home extends Component {
   constructor(props, contenxt) {
     console.log('contenxt', contenxt)
-    super(props);
+    super(props)
     this.state = {
       count: 0,
-    };
+    }
   }
 
   static getDerivedStateFromProps(nextProps, prevState) {
     console.log('getDerivedStateFromProps', nextProps, prevState)
-    return null;
+    return null
   }
 
   componentDidMount() {
     console.log('componentDidMount')
   }
 
-
   getSnapshotBeforeUpdate(prevProps, prevState) {
     console.log('getSnapshotBeforeUpdate', this.state, prevState)
-    return null;
+    return null
   }
 
-  componentDidUpdate(prevProps, prevState){
+  componentDidUpdate(prevProps, prevState) {
     console.log('componentDidUpdate', this.state, prevState)
-    return false;
+    return false
   }
 
   render() {
-    console.log('render', count);
-    const { count } = this.state;
+    console.log('render', count)
+    const { count } = this.state
     return (
       <div>
-        <button onClick={() => this.setState({ count: count + 1 })} >加</button>
+        <button onClick={() => this.setState({ count: count + 1 })}>加</button>
         <span>点击次数：{count}</span>
+        <br />
+        <Link to="/hooks">hooks</Link>
       </div>
-    );
+    )
   }
 }
 
-export default home;
+export default home
