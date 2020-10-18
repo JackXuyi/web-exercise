@@ -3,6 +3,7 @@
 ### 算法
 
 - [排列-递归](./algorithm/rank.js)
+- [异步任务按顺序分组执行](./algorithm/queue.js)
 
 ### react
 
