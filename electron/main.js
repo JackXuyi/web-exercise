@@ -11,9 +11,13 @@ function createWindow() {
       //   preload: path.join(app.getAppPath(), './dist/index.js'),
     },
   })
-  //   win.loadURL('https://baidu.com')
-  win.loadFile('./dist/index.html')
-  win.webContents.openDevTools()
+  console.log('process.env.NODE_ENV', process.env.NODE_ENV)
+  if (process.env.NODE_ENV !== 'production') {
+    win.loadURL('http://localhost:3000')
+    win.webContents.openDevTools()
+  } else {
+    win.loadFile('./dist/index.html')
+  }
 }
 
 app.whenReady().then(createWindow)
