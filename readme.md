@@ -8,3 +8,31 @@
 ### react
 
 - [自定义实现生命周期函数](./react/src/page/hooks.js)
+
+### babel
+
+- [babel 抽象语法树](./babel/test.js)
+
+### 服务端
+
+- [服务器缓存](./cache/src/index.ts)
+- [ts 版本的 express 模板](./express-ts/)
+
+### 跨平台
+
+- [electron](./electron)
+
+### 手写实现
+
+- [array.fill](./handwriting/arrayFill.js)
+- [new](./handwriting/new.js)
+- [promise](./handwriting/promise.js)
+- [发布订阅](./handwriting/pub-sub.js)
+- [websocket server 实现](./handwriting/socketServer.js)
+- [其它](./native)
+
+### 其它
+
+- [commonjs](./verification/commonjs/)
+- [es6 模块](./verification/es6/)
+- [模块循环引用](./verification/loop/)
