@@ -1,84 +1,84 @@
-<mxfile host="65bd71144e" modified="2020-11-24T13:30:35.842Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" version="13.6.5" etag="YmoaldPj11hHIXZXFiGG">
+<mxfile host="65bd71144e" modified="2020-11-26T14:13:17.065Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="pSZjPznEtYEEYs_7DMWS" version="13.6.5">
     <diagram id="v2d23optem65ANYo-D-t" name="第 1 页">
-        <mxGraphModel dx="1350" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1056" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="3" target="4">
+                <mxCell id="5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="3" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="getNormalizedWebpackOptions(序列化参数)" style="rounded=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="3" value="getNormalizedWebpackOptions(序列化参数)" style="rounded=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="170" y="70" width="520" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="4" target="7">
+                <mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="4" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="applyWebpackOptionsBaseDefaults（设置基础默认属性值）" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="4" value="applyWebpackOptionsBaseDefaults（设置基础默认属性值）" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="120" y="210" width="620" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="7" target="9">
+                <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="7" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Compiler（构建 Compiler 实例）" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="7" value="Compiler（构建&amp;nbsp;Compiler&amp;nbsp;实例）" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="170" y="350" width="520" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="9" target="11">
+                <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="9" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=16;fontColor=#fff;" edge="1" parent="1" source="9" target="103">
+                <mxCell id="104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;" parent="1" source="9" target="103" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="NodeEnvironmentPlugin（实例环境变量插件，注入环境变量）" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="9" value="NodeEnvironmentPlugin（实例环境变量插件，注入环境变量）" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="90" y="490" width="680" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="11" target="13">
+                <mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="11" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="按照顺序执行插件（函数插件绑定 this 为 compiler 并把对象作为参数传入函数和实例对象插件调用 apply 方法注入 compiler 实例）" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="11" value="按照顺序执行插件（函数插件绑定 this 为 compiler 并把对象作为参数传入函数和实例对象插件调用&amp;nbsp;apply 方法注入&amp;nbsp;compiler 实例）" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="50" y="630" width="760" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="13" target="15">
+                <mxCell id="16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="13" target="15" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="applyWebpackOptionsDefaults 设置默认参数" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="13" value="applyWebpackOptionsDefaults 设置默认参数" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="130" y="770" width="600" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="15" target="17">
+                <mxCell id="18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="15" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="调用 environment 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="15" value="调用&amp;nbsp;environment 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="290" y="910" width="280" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="17" target="19">
+                <mxCell id="20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="17" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="调用 afterEnvironment 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="17" value="调用 afterEnvironment 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="290" y="1050" width="280" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="19" target="21">
+                <mxCell id="22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="19" target="21" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="实例化  WebpackOptionsApply 处理参数，根据webpack 向上下文中注入属性" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="19" value="实例化&amp;nbsp;&amp;nbsp;WebpackOptionsApply 处理参数，根据webpack 向上下文中注入属性" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="260" y="1190" width="340" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="21" target="32">
+                <mxCell id="33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="21" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="调用 initialize 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="21" value="调用&amp;nbsp;initialize 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="220" y="1330" width="420" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="32" target="34">
+                <mxCell id="35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="32" target="34" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=16;fontColor=#fff;" edge="1" parent="1" source="32" target="100">
+                <mxCell id="105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;" parent="1" source="32" target="100" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="107" value="编译时" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Helvetica;fontColor=#fff;" vertex="1" connectable="0" parent="105">
+                <mxCell id="107" value="编译时" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Helvetica;fontColor=#FFFFFF;" parent="105" vertex="1" connectable="0">
                     <mxGeometry x="-0.2889" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="106" value="开发模式监听文件变化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=16;fontColor=#fff;" edge="1" parent="1" source="32" target="98">
+                <mxCell id="106" value="开发模式监听文件变化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;" parent="1" source="32" target="98" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="110" y="1500"/>
@@ -86,196 +86,287 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" value="调用 Compiler.run 开始编译" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="32" value="调用&amp;nbsp;Compiler.run 开始编译" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="250" y="1470" width="360" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="" style="shape=curlyBracket;whiteSpace=wrap;rounded=1;size=0.5;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="34" value="" style="shape=curlyBracket;whiteSpace=wrap;rounded=1;size=0.5;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="890" y="1130" width="20" height="740" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="36" target="37">
+                <mxCell id="38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="36" target="37" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="调用 beforeRun 钩子" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="36" value="调用&amp;nbsp;beforeRun 钩子" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="930" y="1110" width="210" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="37" target="39">
+                <mxCell id="40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="37" target="39" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="调用 run 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="37" value="调用&amp;nbsp;run 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="975" y="1270" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="39" target="41">
+                <mxCell id="42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="39" target="41" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="39" target="57">
+                <mxCell id="58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="39" target="57" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="调用 this.readRecords 读取编译文件" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="39" value="调用 this.readRecords 读取编译文件" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="920" y="1410" width="230" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="41" target="43">
+                <mxCell id="44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="41" target="43" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="41" target="59">
+                <mxCell id="60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="41" target="59" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="调用 this.compile 构建一个 compilation 实例" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="41" value="调用 this.compile 构建一个&amp;nbsp;compilation 实例" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="920" y="1550" width="230" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="43" target="45">
+                <mxCell id="46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="43" target="45" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="否" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" connectable="0" parent="46">
+                <mxCell id="47" value="否" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="46" vertex="1" connectable="0">
                     <mxGeometry x="-0.3111" y="-3" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="43" target="48">
+                <mxCell id="49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="43" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="是" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" connectable="0" parent="49">
+                <mxCell id="50" value="是" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="49" vertex="1" connectable="0">
                     <mxGeometry x="0.0621" y="-1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="43" value="调用 shouldEmit 检查是否需要输出资源" style="rhombus;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="43" value="调用&amp;nbsp;shouldEmit 检查是否需要输出资源" style="rhombus;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="910" y="1680" width="250" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="调用 done 钩子结束流程" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="45" value="调用&amp;nbsp;done 钩子结束流程" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="975" y="1850" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="48" target="51">
+                <mxCell id="52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="48" target="51" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="48">
+                <mxCell id="94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="48" edge="1" target="95">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="2422" y="1720" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="48" value="调用 this.emitAssets 输出资源" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="48" value="nextTick&amp;nbsp;调用&amp;nbsp;this.emitAssets 输出资源" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1305" y="1690" width="175" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="51" target="45">
+                <mxCell id="53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="51" target="45" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="51" target="96">
+                <mxCell id="97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="51" target="96" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" value="调用 this.emitRecords 输出文件" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="51" value="调用 this.emitRecords 输出文件" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1272.5" y="1850" width="240" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="用 this.inputFileSystem 读取 this.recordsInputPath 文件列表对象存入 this.records 中" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="57" value="用&amp;nbsp;this.inputFileSystem 读取&amp;nbsp;this.recordsInputPath 文件列表对象存入&amp;nbsp;this.records 中" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1285" y="1410" width="355" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" value="" style="shape=curlyBracket;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="59" value="" style="shape=curlyBracket;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1680" y="970" width="20" height="1220" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="62" target="63">
+                <mxCell id="64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="62" target="63" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="62">
+                <mxCell id="83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="62" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="2225" y="920" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="62" value="调用 this.newCompilationParams 获取构建 Compilation 实例的参数" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="62" value="调用 this.newCompilationParams 获取构建&amp;nbsp;Compilation 实例的参数" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1710" y="880" width="330" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="63" target="65">
+                <mxCell id="66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="63" target="65" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="调用 beforeCompile 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="63" value="调用&amp;nbsp;beforeCompile 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1710" y="1050" width="330" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="65" target="67">
+                <mxCell id="68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="65" target="67" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="调用 compile 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="65" value="调用&amp;nbsp;compile 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1710" y="1190" width="330" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="67" target="69">
+                <mxCell id="70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="67" target="69" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="67" target="84">
+                <mxCell id="85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="67" target="84" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="调用 this.newCompilation(params) 构建 Compilation 实例" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="67" value="调用&amp;nbsp;this.newCompilation(params) 构建&amp;nbsp;Compilation 实例" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1710" y="1330" width="330" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="69" target="71">
+                <mxCell id="72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="69" target="71" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="调用 make 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="69" target="112">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="调用&amp;nbsp;make 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1815" y="1470" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="71" target="74">
+                <mxCell id="75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="71" target="74" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="调用 finishMake 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="71" value="调用&amp;nbsp;finishMake 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1740" y="1610" width="270" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="74" target="76">
+                <mxCell id="77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="74" target="76" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" value="process.nextTick 回调" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="74" value="process.nextTick 回调" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1750" y="1750" width="250" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="76" target="78">
+                <mxCell id="79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="76" target="78" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" value="在 compilation.finish 回调中执行 compilation.seal 回调" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="76" value="在&amp;nbsp;compilation.finish 回调中执行&amp;nbsp;compilation.seal 回调" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1720" y="1890" width="310" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="78" target="80">
+                <mxCell id="81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="78" target="80" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="调用 afterCompile 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="78" value="调用&amp;nbsp;afterCompile 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1740" y="2030" width="270" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="80" value="回调 callback" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="80" value="回调&amp;nbsp;callback" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1815" y="2170" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="84" value="实例化 Compilation 对象，设置 name、records 属性，执行 thisCompilation 和 compilation钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="84" value="实例化&amp;nbsp;Compilation 对象，设置&amp;nbsp;name、records 属性，执行&amp;nbsp;thisCompilation 和&amp;nbsp;compilation钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="2210" y="1330" width="285" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="86" value="" style="shape=curlyBracket;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="86" value="" style="shape=curlyBracket;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="2240" y="860" width="20" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="87" target="89">
+                <mxCell id="90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="87" target="89" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="87" value="调用 this.createNormalModuleFactory() 构建 normalModuleFactory 属性" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="87" value="调用&amp;nbsp;this.createNormalModuleFactory() 构建&amp;nbsp;normalModuleFactory 属性" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="2300" y="820" width="340" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" edge="1" parent="1" source="88" target="91">
+                <mxCell id="92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" source="88" target="91" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="调用 this.createContextModuleFactory() 构建 contextModuleFactory 属性" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="88" value="调用&amp;nbsp;this.createContextModuleFactory() 构建&amp;nbsp;contextModuleFactory 属性" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="2300" y="940" width="350" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="89" value="实例化 NormalModuleFactory 对象，调用 normalModuleFactory 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="89" value="实例化&amp;nbsp;NormalModuleFactory 对象，调用&amp;nbsp;normalModuleFactory 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="2830" y="830" width="310" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="91" value="实例化 ContextModuleFactory 对象，调用 contextModuleFactory 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="91" value="实例化&amp;nbsp;ContextModuleFactory 对象，调用&amp;nbsp;contextModuleFactory 钩子" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="2845" y="950" width="295" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" value="调用 emit 钩子，调用 compilation.getAssets() 获取资源列表，遍历目标文件夹和当前生成文件的源数据进行比较增量更新" style="rounded=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
-                    <mxGeometry x="2250" y="1690" width="470" height="60" as="geometry"/>
+                <mxCell id="95" value="调用&amp;nbsp;emit 钩子，调用&amp;nbsp;compilation.getAssets() 获取资源列表，遍历目标文件夹和当前生成文件的源数据进行比较增量更新" style="rounded=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="2100" y="1690" width="470" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" value="输出生成的文件记录" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="96" value="输出生成的文件记录" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="1267.5" y="1990" width="250" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="98" value="调用 Compiler.watch 构建 Watching 实例监听文件更改" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="98" value="调用&amp;nbsp;Compiler.watch 构建&amp;nbsp;Watching 实例监听文件更改" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="210" y="1780" width="440" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="100" value="调用 Compiler.close 结束运行" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="100" value="调用&amp;nbsp;Compiler.close 结束运行" style="whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="220" y="1620" width="420" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" value="Compilation对象" style="whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="102" value="Compilation对象" style="whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="310" y="2850" width="200" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="103" value="注入&amp;nbsp;&lt;span style=&quot;color: rgb(156 , 220 , 254) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;infrastructureLogger、&lt;/span&gt;&lt;span style=&quot;color: rgb(156 , 220 , 254) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;inputFileSystem、&lt;/span&gt;&lt;span style=&quot;color: rgb(156 , 220 , 254) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;outputFileSystem、&lt;/span&gt;&lt;span style=&quot;color: rgb(156 , 220 , 254) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;intermediateFileSystem、&lt;/span&gt;&lt;span style=&quot;color: rgb(156 , 220 , 254) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;watchFileSystem，执行&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(156 , 220 , 254) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;beforeRun 钩子&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;fontColor=#fff;" vertex="1" parent="1">
+                <mxCell id="103" value="注入&amp;nbsp;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;infrastructureLogger、&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;inputFileSystem、&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;outputFileSystem、&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;intermediateFileSystem、&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;watchFileSystem，执行&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;beforeRun 钩子&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
                     <mxGeometry x="1130" y="490" width="730" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="112" target="114">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="执行插件&amp;nbsp;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;EntryPlugin 钩子查找依赖模块&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;fontColor=#FFFFFF;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="2130" y="1470" width="315" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="114" target="116">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="调用 C&lt;span style=&quot;font-size: 16px;&quot;&gt;ompilation&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;addEntry 添加依赖模块&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;fontColor=#FFFFFF;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="2507.5" y="1470" width="352.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="116" target="118">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="调用&amp;nbsp;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;Compilation.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;_addEntryItem 添加入口文件&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;fontColor=#FFFFFF;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="3056.25" y="1470" width="273.75" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="3440" y="1380" width="20" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="120" target="123">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="构建一个依赖模块，&lt;br style=&quot;font-size: 16px;&quot;&gt;{&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;dependencies&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt; [],&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;includeDependencies&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt; [],&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;options&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt; {&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;undefined&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;},&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;target: []&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;}&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="3460" y="1390" width="420" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="123" target="128">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="调用&amp;nbsp;&lt;span style=&quot;font-size: 16px; background-color: rgb(30, 30, 30);&quot;&gt;Compilation.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;addModuleChain 加入依赖模块链中&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="3460" y="1540" width="420" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="128" target="130">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="调用&amp;nbsp;&lt;span style=&quot;font-size: 16px; background-color: rgb(30, 30, 30);&quot;&gt;Compilation.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;handleModuleCreation，生成模块配置参数&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="4070" y="1540" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="130" target="132">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="调用&amp;nbsp;&lt;span style=&quot;font-size: 16px; background-color: rgb(30, 30, 30);&quot;&gt;Compilation.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;factorizeModule，把模块及模块参数放入&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(30, 30, 30);&quot;&gt;Compilation.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;factorizeQueue 队列中&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="4520" y="1540" width="420" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="132" target="134">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" value="调用&amp;nbsp;&lt;span style=&quot;font-size: 16px; background-color: rgb(30, 30, 30);&quot;&gt;Compilation.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;buildModule 开始构建模块&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="4530" y="1680" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="134" target="140">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="编译模块放入&amp;nbsp;&lt;span style=&quot;font-size: 16px; background-color: rgb(30, 30, 30);&quot;&gt;Compilation.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;buildQueue 队列&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="4560" y="1820" width="340" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="136" target="138">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="调用&amp;nbsp;&lt;span style=&quot;font-size: 16px; background-color: rgb(30, 30, 30);&quot;&gt;Compilation.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;processModuleDependencies 处理模块依赖&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="4540" y="2138" width="380" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="依赖模块放入&amp;nbsp;&lt;span style=&quot;font-size: 16px; background-color: rgb(30, 30, 30);&quot;&gt;Compilation.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;processDependenciesQueue 队列中&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="4530" y="2278" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="140" target="136">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" vertex="1" connectable="0" parent="142">
+                    <mxGeometry x="-0.1455" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="140" target="144">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" vertex="1" connectable="0" parent="145">
+                    <mxGeometry x="-0.0667" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="140" value="检查是否正在运行模块编译" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="4630" y="1950" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="调用&amp;nbsp;&lt;span style=&quot;font-size: 16px; background-color: rgb(30, 30, 30);&quot;&gt;Compilation.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); font-size: 16px;&quot;&gt;processModuleDependenciesNonRecursive 处理模块&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="4050" y="1960" width="460" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
