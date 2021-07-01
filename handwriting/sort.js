@@ -61,3 +61,34 @@ const insertSortArr = baseArr.slice()
 console.log('insertSort before', insertSortArr)
 insertSort(insertSortArr)
 console.log('insertSort after', insertSortArr)
+
+// *hhiii*hhhyyy => **hhiiihhhyyy
+function sortChar(str) {
+  if (!str) {
+    return ''
+  }
+  let retStr = str.split('').filter(Boolean)
+  const len = retStr.length
+  let left = 0
+  let right = len - 1
+  while (left < right) {
+    while (retStr[right] !== '*' && right > 0) {
+      right--
+    }
+    while (retStr[left] === '*' && left < len) {
+      left++
+    }
+
+    if (left < right) {
+      retStr[right] = retStr[left]
+      retStr[left] = '*'
+      left++
+      right--
+    }
+  }
+  return retStr.join('')
+}
+
+const str = '*hhiii*hhhyyy'
+console.log('sortChar before', str)
+console.log('sortChar after', sortChar(str))
