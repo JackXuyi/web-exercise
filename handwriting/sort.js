@@ -92,3 +92,40 @@ function sortChar(str) {
 const str = '*hhiii*hhhyyy'
 console.log('sortChar before', str)
 console.log('sortChar after', sortChar(str))
+
+function maxNoRepeatSubStr(str) {
+  let result = 0
+  let i = 0
+  let j = 0
+  const len = str.length
+  let subStr = ''
+  const map = {} // 记录遍历的字符
+  while (i < len && j < len) {
+    while (j < len - 1 && !map[str[j]]) {
+      map[str[j]] = true
+      if (j === len - 1) {
+        break
+      }
+      j++
+    }
+    if (subStr.length < j - i - 1) {
+      result = j - i - 1
+      subStr = str.substr(i, result)
+    }
+    if (str[i] === str[j]) {
+      map[str[i]] = false
+      i++
+    } else {
+      while (str[i] !== str[j] && i < j) {
+        map[str[i]] = false
+        if (i === j) {
+          break
+        }
+        i++
+      }
+    }
+  }
+  console.log('subStr', subStr)
+  return result
+}
+console.log(maxNoRepeatSubStr('abcdaefghkd'))
