@@ -34,8 +34,30 @@ function quickSort(arr, start, end) {
   }
 }
 
+function insertSort(arr) {
+  if (arr && arr.length <= 1) {
+    return arr
+  }
+
+  const len = arr.length
+  for (let i = 1; i < len; i++) {
+    const curr = arr[i]
+    let prev = i - 1
+    while (prev >= 0 && curr < arr[prev]) {
+      arr[prev + 1] = arr[prev]
+      prev--
+    }
+    arr[prev + 1] = curr
+  }
+}
+
 const baseArr = [100, 50, 80, 40, 60, 90, 30, 55, 180, 160, 120]
 const quickSortArr = baseArr.slice()
 console.log('quickSort before', quickSortArr)
 quickSort(quickSortArr)
 console.log('quickSort after', quickSortArr)
+
+const insertSortArr = baseArr.slice()
+console.log('insertSort before', insertSortArr)
+insertSort(insertSortArr)
+console.log('insertSort after', insertSortArr)
