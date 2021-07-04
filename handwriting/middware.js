@@ -1,3 +1,4 @@
+// 按顺序流式调用
 class Middware {
   constructor() {
     this.middwares = []
@@ -87,3 +88,32 @@ mid.use(function (error) {
 mid.call(1)
 console.log('======>>>>>>>>')
 mid.call(2)
+
+// 洋葱模式从内而外调用
+function componse() {
+  const list = Array.from(arguments)
+  return async function (req) {
+    const value = await list.reduceRight(async (prev, fun) => {
+      const value = await prev
+      const result = await fun(value)
+      return result
+    }, Promise.resolve(req))
+    return value
+  }
+}
+
+console.log('======>>>>>>>>')
+componse(
+  (req) => {
+    console.log('first req', req - 1)
+    return req
+  },
+  (req) => {
+    console.log('second req', req - 1)
+    return req - 1
+  },
+  (req) => {
+    console.log('third req', req - 1)
+    return req - 1
+  },
+)(3)
