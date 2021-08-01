@@ -1,15 +1,18 @@
 /**
  * @author xuyi
  */
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import App from './router';
-import store from './redux';
+import React, { useState } from 'react'
+import ReactDOM from 'react-dom'
+// import { Provider } from 'react-redux'
+// import App from './router'
+// import store from './redux'
+
+function Test() {
+  const [a, setA] = useState(0)
+  return <div>{a}</div>
+}
 
 ReactDOM.render(
-  <Provider store={store} >
-    <App />
-  </Provider>,
+  <Test />,
   document.getElementById('root') || document.getElementsByTagName('body')[0]
-);
+)

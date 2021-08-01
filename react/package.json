@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Project completed\"",
-    "build": "webpack --config webpack.prod.js --mode production",
+    "build": "webpack --config webpack.prod.js",
     "start": "webpack-dev-server --config webpack.dev.js --mode development"
   },
   "keywords": [
