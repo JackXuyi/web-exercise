@@ -9,7 +9,11 @@ import ReactDOM from 'react-dom'
 
 function Test() {
   const [a, setA] = useState(0)
-  return <div>{a}</div>
+  const handleClick = (e) => {
+    setA(a + 1)
+    console.log('e', e)
+  }
+  return <div onClick={handleClick}>{a}</div>
 }
 
 ReactDOM.render(
