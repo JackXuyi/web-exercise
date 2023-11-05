@@ -92,9 +92,11 @@ func getInfo()(ResultResponse) {
         res.CPUhz = strconv.FormatFloat(float64(info.Mhz / 1000), 'f', 2,64) + "Ghz"
     }
     percents, _ := cpu.Percent(1000, true)
+    var cpu float64 = 0;
     for _, info := range percents {
-        res.CPU = info
+        cpu = cpu + info
     }
+    res.CPU = cpu / float64(len(percents))
     // host
     platform, _, _, _ := host.PlatformInformation()
     res.Type = platform
