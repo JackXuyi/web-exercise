@@ -4,19 +4,10 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 // import { Provider } from 'react-redux'
-// import App from './router'
+import App from './router'
 // import store from './redux'
 
-function Test() {
-  const [a, setA] = useState(0)
-  const handleClick = (e) => {
-    setA(a + 1)
-    console.log('e', e)
-  }
-  return <div onClick={handleClick}>{a}</div>
-}
-
 ReactDOM.render(
-  <Test />,
+  <App />,
   document.getElementById('root') || document.getElementsByTagName('body')[0]
 )

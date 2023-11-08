@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom'
 import home from './page/home'
 import hooks from './page/hooks'
+import three from './page/three'
 
 const routerConfig = [
   {
@@ -18,6 +19,11 @@ const routerConfig = [
     name: 'hooks',
     path: '/hooks',
     component: hooks,
+  },
+  {
+    name: 'three',
+    path: '/three',
+    component: three,
   },
 ]
 

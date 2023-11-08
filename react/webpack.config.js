@@ -32,8 +32,8 @@ module.exports = {
     minimize: false,
   },
   externals: {
-    react: 'React',
-    'react-dom': 'ReactDOM',
-    'react-router': 'ReactRouter',
+    // react: 'React',
+    // 'react-dom': 'ReactDOM',
+    // 'react-router': 'ReactRouter',
   },
 }
