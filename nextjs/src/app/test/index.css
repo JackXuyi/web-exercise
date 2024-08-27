@@ -1,0 +1,9 @@
+.slide-in {
+  transition: margin 300ms ease-in;
+  margin-top: -20px;
+}
+
+.slide-out {
+  transition: margin 300ms ease-out;
+  margin-top: 20px;
+}
