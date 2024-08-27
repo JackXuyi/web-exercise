@@ -10,6 +10,8 @@ class home extends Component {
     super(props)
     this.state = {
       count: 0,
+      operate: '',
+      isOperate: false,
     }
   }
 
@@ -28,17 +30,52 @@ class home extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    console.log('componentDidUpdate', this.state, prevState)
     return false
+  }
+
+  handleAddClick = () => {
+    if (this.state.isOperate) {
+      return
+    }
+    const { count } = this.state
+    this.setState({ count: count + 1, operate: 'add', isOperate: true })
+  }
+
+  handlePlusClick = () => {
+    if (this.state.isOperate) {
+      return
+    }
+    const { count } = this.state
+    this.setState({ count: count - 1, operate: 'minus', isOperate: true })
+  }
+
+  handleTranstionEnd = () => {
+    this.setState({ isOperate: false })
+  }
+
+  getClassName = () => {
+    const { count, operate } = this.state
+    if (operate === 'add') {
+      return 'slide-in'
+    }
+    if (operate === 'minus') {
+      return 'slide-out'
+    }
+    return ''
   }
 
   render() {
     console.log('render', count)
-    const { count } = this.state
+    const { count, operate } = this.state
     return (
       <div>
-        <button onClick={() => this.setState({ count: count + 1 })}>加</button>
-        <span>点击次数：{count}</span>
+        <button onClick={this.handleAddClick}>加</button>
+        <button onClick={this.handlePlusClick}>减</button>
+        <div className={this.getClassName()}>
+          {operate === 'add' && <span>点击次数：{count - 1}</span>}
+          <span>点击次数：{count}</span>
+          {operate === 'minus' && <span>点击次数：{count + 1}</span>}
+        </div>
         <br />
         <Link to="/hooks">hooks</Link>
       </div>
